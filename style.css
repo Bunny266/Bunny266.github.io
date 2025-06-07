@@ -21,6 +21,10 @@ header {
     box-shadow: 0 2px 15px rgba(66, 211, 255, 0.1);
     z-index: 1000;
 }
+@media (max-width: 767px) {
+      .container {
+        flex-direction: column;
+      }
 
 nav {
     max-width: 1200px;
